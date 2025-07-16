@@ -1,13 +1,12 @@
 # YLauncher
 
-![Preview do Launchpad (placeholder)](./docs/screenshot.png)
-*(Substitua esta imagem por uma captura de tela real do seu Launchpad funcionando!)*
+![Preview do Launchpad (placeholder)](https://i.postimg.cc/BZKykxtk/image.png)
 
 ## Descrição
 
 O **YLauncher** é um lançador de aplicativos minimalista e altamente personalizável, desenvolvido em Python com a biblioteca GTK3, projetado especificamente para usuários Linux. Ele foi criado para oferecer uma maneira rápida e eficiente de acessar e organizar seus aplicativos, com foco em atalhos `.desktop` personalizados.
 
-Ideal para quem busca um launcher que se integra perfeitamente ao ambiente de trabalho, com opções de customização de layout e comportamento, e que pode ser facilmente invocado via atalhos de teclado.
+O design foi inspirado no layout do LaunchPad do MacOS.
 
 ## Recursos
 
@@ -26,7 +25,7 @@ Ideal para quem busca um launcher que se integra perfeitamente ao ambiente de tr
 
 ## Pré-requisitos
 
-Para rodar o Meu Launchpad, você precisará:
+Para rodar o YLauncher, você precisará:
 
 * Python 3.x
 * PyGObject (para bindings GTK3)
@@ -35,11 +34,10 @@ Para rodar o Meu Launchpad, você precisará:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SeuUsuario/MeuLaunchpad.git](https://github.com/SeuUsuario/MeuLaunchpad.git)
-    cd MeuLaunchpad
+    git clone [htthttps://github.com/kvsdc/YLauncher.git](https://github.com/kvsdc/YLauncher.git)
+    cd YLauncher
     ```
-    *(Substitua `SeuUsuario` e `MeuLaunchpad` pelo seu usuário do GitHub e nome do repositório)*
-
+    
 2.  **Instale as dependências:**
     ```bash
     pip install PyGObject
@@ -67,7 +65,7 @@ Para rodar o Meu Launchpad, você precisará:
     ```
 
 2.  **Atribua um Atalho de Teclado (Opcional, mas Recomendado):**
-    Para uma experiência completa, é altamente recomendado atribuir uma tecla de atalho (por exemplo, a tecla <kbd>Super</kbd> ou <kbd>Windows</kbd>) para executar o comando `python3 /caminho/para/MeuLaunchpad/main.py`. As etapas variam dependendo do seu ambiente de desktop (GNOME, KDE, XFCE, etc.). Geralmente, você pode fazer isso nas configurações de "Atalhos de Teclado" ou "Teclas Personalizadas".
+    Para uma experiência completa, é altamente recomendado atribuir uma tecla de atalho (por exemplo, a tecla <kbd>Super</kbd> ou <kbd>Windows</kbd>) para executar o comando `python3 /caminho/para/ylauncher/main.py`. As etapas variam dependendo do seu ambiente de desktop (GNOME, KDE, XFCE, etc.). Geralmente, você pode fazer isso nas configurações de "Atalhos de Teclado" ou "Teclas Personalizadas".
 
 3.  **Adicionar/Editar/Excluir Lançadores:**
     Coloque seus arquivos `.desktop` personalizados na pasta `~/.local/share/applications/launchpad/`.
