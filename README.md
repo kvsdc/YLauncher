@@ -34,7 +34,7 @@ Para rodar o YLauncher, você precisará:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [htthttps://github.com/kvsdc/YLauncher.git](https://github.com/kvsdc/YLauncher.git)
+    git clone [https://github.com/kvsdc/ylauncher.git](https://github.com/kvsdc/ylauncher.git)
     cd YLauncher
     ```
     
